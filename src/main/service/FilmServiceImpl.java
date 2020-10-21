@@ -1,5 +1,9 @@
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
+@Service
 public class FilmServiceImpl implements FilmService {
     private FilmDAO filmDAO = new FilmDAOImpl();
 
